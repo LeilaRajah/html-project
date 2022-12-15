@@ -1,0 +1,48 @@
+.navbar{
+    display: inline;
+}
+#pink{ 
+    color: palevioletred
+}
+h1 {
+    color:rgb(114, 165, 148)
+}
+.but {
+    font-family: "Times New Roman", Times, serif;
+    font-size : 20px;
+    background-color :rgb(165, 218, 200);
+    border: 2px solid rgb(111, 180, 157);
+    border-radius: 15px;
+    padding: 20px;
+}
+.icon{
+    font-family: "Times New Roman", Times, serif;
+    font-size : 20px;
+    color : rgb(228, 6, 109);
+}
+div{
+    background-color: rgb(252, 245, 246);
+}
+.line {
+    display: inline;
+}
+input{
+    margin: 20px
+}
+textarea{
+    margin: 20px
+}
+.log {
+    font-family: "Times New Roman", Times, serif;
+    font-size : 20px;
+    background-color :rgba(237, 241, 240, 0.87);
+    border: 1px solid black(111, 180, 157);
+    padding: 20px;
+
+}
+
+label{
+    font-family: "Times New Roman", Times, serif;
+    font-size : 20px;
+
+}

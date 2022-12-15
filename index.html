@@ -2,38 +2,41 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>leila</title>
+    
 </head>
 
 <body>
     <nav>
-        <img src="fashion.jpg" height="220">
-        <table>
+        <img class="navbar" src="fashion.jpg" height="220">
+        <table class="navbar">
             <th>
-                <a href="#home">
+                <a href="#home" id="pink">
                     <font size="5">Home</font>
                 </a>
             </th>
             <th>
-                <a href="#about">
+                <a href="#about"  id="pink">
                     <font size="5">About</font>
                 </a>
             </th>
             <th>
-                <a href="#work">
+                <a href="#work"  id="pink">
                     <font size="5">Work</font>
                 </a>
             </th>
             <th>
-                <a href="#resume">
+                <a href="#resume"  id="pink">
                     <font size="5">Resume</font>
                 </a>
             </th>
             <th>
-                <a href="#contact">
+                <a href="#contact" id="pink">
                     <font size="5">Contact</font>
                 </a>
             </th>
@@ -42,29 +45,30 @@
 
     <hr>
 
-
+<div>
     <home id="home">
         <h1> Women's collection</h1> <br />
         <centre><img src="home.jpeg" height="500"></centre> <br /><br /> <br /> <br />
-        <button> shop now </button> <br /> <br /> <br />
+        <button class="but"> shop now </button> <br /> <br /> <br />
         <centre>
             <table>
                 <th>
                 <td><img src="camion.jpg" height="50"></td>
-                <td>free shopping</td>
+                <td class="icon">free shopping</td>
                 <td><img src="return.jpg" height="80"></td>
-                <td>30 days return</td>
+                <td class="icon">30 days return</td>
                 <td><img src="payement.png" height="50"></td>
-                <td>100% payement secure</td>
+                <td class="icon">100% payement secure</td>
                 </th>
 
             </table>
         </centre>
     </home>
+</div>
     <hr>
 
 
-
+<div>
     <about id="about">
         <h1> About our brand</h1>
         <table>
@@ -83,15 +87,15 @@
             </tr>
             <tr>
                 <td>
-                    <button> Great sale </button>
+                    <button class="but"> Great sale </button>
                 </td>
             </tr>
         </table>
 
     </about>
-
+</div>
     <hr>
-
+<div>
     <work id="work">
         <h1> Our work </h1>
         <table>
@@ -113,9 +117,9 @@
             </tr>
         </table>
     </work>
-
+</div>
     <hr>
-
+    <div>
     <resume id="resume">
         <h1> Resume</h1> <br />
         <table>
@@ -138,10 +142,11 @@
                 </td>
             </tr>
         </table>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hoKDrFyQDy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </resume>
-
+</div>
     <hr>
-
+    <div>
     <contact id="contact">
         <h1>Contact</h1>
         <table>
@@ -159,8 +164,26 @@
             </tr>
 
         </table>
+        <form>
+            <center>
+            
+            <label class="line">Nom et Prénom</label>
+            <input class="log" class="line"type="text" name="name" value="Name">
+      
+    <br>
+            <label class="line">Email</label>
+            <input class="log" class="line"type="email" name="email" id="email"> <br>
+        
+       
+            <label >description</label> <br>
+            <textarea class="log" class="line"rows="" cols=""></textarea><br>
+            <button>submit</button>
+    
+        </center>
+        </form>
+  
     </contact>
-
+</div>
     <hr>
 
     <footer>
@@ -181,6 +204,7 @@
             </tr>
         </table>
     </footer>
+
 
 
 </body>
